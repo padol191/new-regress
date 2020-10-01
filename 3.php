@@ -55,6 +55,85 @@ if __name__ == "__main__":
 
 	app.run(debug=True) 
 
+@media 
+  (min-width: 345px) and (max-width: 450px){
+    .parallax {
+  /* The image used */
+ background-image: url('Resources/ELAN 11.png');
+ background-size: 100% 100%;
+ width: 100%;
+  height: 900px;
+
+}
+}
+.site-navbar .site-navigation .site-menu > li {
+      display: inline-block;
+      padding: 8px 12px !important; }
+html {
+ 
+  
+}
+::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  background: transparent;
+}
+body{
+                width: 100%;
+                height: 2600px;
+                background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
+                background-color: #0A0A0A !important;
+                background-size: contain;
+                /* overflow: hidden; */
+                background-attachment: fixed;
+                margin: 0;
+                font-family: "Roboto Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+                position: relative;
+            
+    }
+    p {
+      font-size: 1.1rem;
+    color: white;
+    line-height: 25px;
+}
+/* body {
+  line-height: 1.7;
+  color: #cfcfd1;
+  font-weight: 300;
+  font-size: 1rem;
+  background-color: #0a0a0a;
+  background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
+  font-family: "Roboto Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+} 
+
+::-moz-selection {
+  background: #000;
+  color: #fff; }
+
+::selection {
+  background: #000;
+  color: #fff; }
+
+a {
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease; 
+  font-family: "Roboto Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  a:hover {
+    text-decoration: none; }
+
+h1, h2, h3, h4, h5,
+.h1, .h2, .h3, .h4, .h5 {
+  font-family: "Roboto Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important; }
+
+.border-2 {
+  border-width: 2px; }
+
+.text-black {
+  color: #000 !important; }
+
+.bg-black {
+  background: #000 !important; }
 ::-moz-selection {
   background: #000;
   color: #fff; }
