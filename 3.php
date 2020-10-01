@@ -51,15 +51,9 @@ body{
                 position: relative;
     }
 
-/* body {
-  line-height: 1.7;
-  color: #cfcfd1;
-  font-weight: 300;
-  font-size: 1rem;
-  background-color: #0a0a0a;
-  background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
-  font-family: "Roboto Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
-} 
+if __name__ == "__main__":
+
+	app.run(debug=True) 
 
 ::-moz-selection {
   background: #000;
